@@ -63,3 +63,4 @@ As part of the response body the field `apiLimit` is set to true if the API call
 - Because of the API limitations, a paid account will need to be created with `funtranslations.com` and the code extended to support the access token
 - Instead of running locally the app will have to be deployed to a cloud provider e.g. AWS or GCP for high availability and scalability
 - The service NodePort would need to be replaced with an Ingress controller, so we don't expose the service to the outside world but instead an endpoint which routes traffic to backend services
+
